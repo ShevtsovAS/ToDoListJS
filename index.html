@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+
+<div id="popup-container">
+    <div id="popup">
+        <p id="error">Вы не вели ни каких данных</p>
+    </div>
+</div>
+
+<section class="main-container">
+    <div class="container">
+
+        <div class="add-case">
+            <h2 class="h2-1">Добавить новое дело</h2>
+            <div class="add-case1">
+                <p class="p-1">*название</p>
+                <label><input class="input" type="text" size="40" name="text"></label>
+                <p class="p-2">*описание</p>
+                <label><textarea class="textarea" cols="45" rows="15" maxlength="1000"></textarea></label>
+                <button class="btn">Добавить дело</button>
+            </div>
+        </div>
+
+        <h2 class="h2-2">Список дел:</h2>
+        <p class="sps">Список пуст...</p>
+
+        <div class="column-left">
+            <!--Заполнение джаваскриптом-->
+        </div>
+
+    </div>
+</section>
+<script src="script/script.js"></script>
+</body>
+</html>
